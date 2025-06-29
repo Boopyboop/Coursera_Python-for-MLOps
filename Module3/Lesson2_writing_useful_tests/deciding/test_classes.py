@@ -43,8 +43,8 @@ class TestStrToInt:
 
     def test_rounds_down(self):
         result = str_to_int('1.99')
-        assert result == 2
+        assert result == 1
 
     def test_round_down_lesser_half(self):
         result = str_to_int('1.2')
-        assert result == 2
+        assert result == 1
