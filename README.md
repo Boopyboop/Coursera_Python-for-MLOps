@@ -10,31 +10,7 @@
 
 This module focuses on using `pytest` to write clean, maintainable, and robust tests in Python—an essential skill for MLOps pipelines and production-ready machine learning systems.
 
-Topics covered:
 
-- ✅ Writing simple and expressive unit tests with `pytest`
-- 🧱 Using test functions and test classes
-- 🔁 Setup and teardown methods for test environments
-- 🧩 Pytest fixtures for reusable, isolated logic
-- 🐞 Reading and interpreting test failure outputs
-- ⚙️ Useful `pytest` CLI flags and tools
-- ⚡ Running tests in parallel with `pytest-xdist`
-
----
-
-## 📁 Project Layout
-
-```bash
-.
-├── utils.py                  # Utility functions (e.g., string_to_int)
-├── test_failure_output.py   # Intentional test failures to analyze output
-├── test_classes.py          # Using classes, setup/teardown
-├── test_fixtures.py         # Using pytest fixtures
-├── requirements.txt         # Dependencies
-└── README.md                # This file
-```
-
----
 
 ## 🚀 Setup Instructions
 
